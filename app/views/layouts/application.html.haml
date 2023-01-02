@@ -1,7 +1,7 @@
 !!!
 %html{lang: I18n.locale.to_s.downcase}
   %head
-    %title= @page_meta_title.present? ? @page_meta_title : ["French Tech Strasbourg", @page_title].compact.join(" - ")
+    %title= @page_meta_title.present? ? @page_meta_title : ["Strasbourg Startups", @page_title].compact.join(" - ")
     %meta{content: "text/html; charset=UTF-8", http: {equiv: "Content-Type"}}
     %meta{charset: "utf-8"}
     %meta{http: {equiv: "X-UA-Compatible"}, content: "IE=edge"}
@@ -26,7 +26,7 @@
     - if controller.controller_name == 'welcome'
       %section.hero.py-5.box-shadow.d-flex.flex-column.justify-content-center{style: "background-image: url(#{ asset_pack_path('media/images/background.jpg') })"}
         .text-center
-          .title.display-2 French Tech Strasbourg
+          .title.display-2 Strasbourg Startups
           .subtitle.mb-0= @page_description
     = yield
     = render partial: "/layouts/footer"
