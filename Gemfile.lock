@@ -100,7 +100,7 @@ GEM
       unf (>= 0.0.5, < 1.0.0)
     erubi (1.12.0)
     excon (0.71.0)
-    ffi (1.11.2)
+    ffi (1.15.5)
     fog-aws (3.5.2)
       fog-core (~> 2.1)
       fog-json (~> 1.1)
@@ -138,9 +138,9 @@ GEM
       domain_name (~> 0.5)
     i18n (1.12.0)
       concurrent-ruby (~> 1.0)
-    image_processing (1.9.3)
+    image_processing (1.12.2)
       mini_magick (>= 4.9.5, < 5)
-      ruby-vips (>= 2.0.13, < 3)
+      ruby-vips (>= 2.0.17, < 3)
     inherited_resources (1.11.0)
       actionpack (>= 5.0, < 6.1)
       has_scope (~> 0.6)
@@ -175,7 +175,7 @@ GEM
     mimemagic (0.3.10)
       nokogiri (~> 1)
       rake
-    mini_magick (4.9.5)
+    mini_magick (4.12.0)
     mini_mime (1.1.2)
     mini_portile2 (2.8.1)
     minitest (5.17.0)
@@ -274,8 +274,8 @@ GEM
       mime-types (>= 1.16, < 4.0)
       netrc (~> 0.8)
     rollbar (2.22.1)
-    ruby-vips (2.0.16)
-      ffi (~> 1.9)
+    ruby-vips (2.1.4)
+      ffi (~> 1.12)
     ruby_dep (1.5.0)
     simple_form (5.0.1)
       actionpack (>= 5.0)
@@ -341,7 +341,7 @@ DEPENDENCIES
   geocoder
   globalize
   haml
-  image_processing (~> 1.2)
+  image_processing (~> 1.12)
   inherited_resources
   jbuilder (~> 2.5)
   listen (>= 3.0.5, < 3.2)
