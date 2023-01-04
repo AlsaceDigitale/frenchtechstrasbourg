@@ -1,8 +1,8 @@
 fr:
   recaptcha:
     errors:
-      verification_failed: "La vérification du captcha a échoué, veuillez cocher la case."
-      recaptcha_unreachable: "Service de véification injoignable."
+      verification_failed: 'La vérification du captcha a échoué, veuillez cocher la case.'
+      recaptcha_unreachable: 'Service de véification injoignable.'
   will_paginate:
     previous_label: "&#8592; Précédent"
     next_label: "Suivant &#8594;"
@@ -35,7 +35,7 @@ fr:
       about: "À propos"
       add_new: "Ajouter une startup"
     footer:
-      signature: "La Communauté Strasbourg Startups est une initiative portée par les entrepreneurs de l'écosystème."
+      signature: "La Communauté French Tech Strasbourg est une initiative portée par les entrepreneurs de l'écosystème."
       web_development: "<a href='https://www.novelys.com' target='_blank'>Développement Ruby on Rails</a>"
       hosting: "<a href='https://scalingo.com' target='_blank'>Hébergement Ruby on Rails</a>"
     startups:

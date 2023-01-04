@@ -1,7 +1,7 @@
 !!! 5
 %html{lang: 'fr'}
   %head
-    %title= @page_meta_title.present? ? @page_meta_title : [@page_title, "Strasbourg Startups Extranet"].compact.join(" - ")
+    %title= @page_meta_title.present? ? @page_meta_title : [@page_title, "French Tech Strasbourg Extranet"].compact.join(" - ")
     %meta{content: "text/html; charset=UTF-8", http: {equiv: "Content-Type"}}
     %meta{charset: "utf-8"}
     %meta{http: {equiv: "X-UA-Compatible"}, content: "IE=edge"}
@@ -63,10 +63,11 @@
             .card.mt-5
               .card-body
                 %h1.h3
-                  Strasbourg Startups
+                  French Tech Strasbourg
                   %br
                   %small.text-muted
                     admin
                 .my-4
                   = yield
                 = render "devise/shared/links"
+
